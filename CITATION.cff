@@ -10,3 +10,5 @@ date-released: 2026-11-21
 license: MIT
 repository-code: https://github.com/Topbrutus/polybrutus-d43
 abstract: "Exact synthetic 48-point Euclidean labelled metric preserving 1081 parent squared pair distances and independently verified abstract graph modes."
+doi: 10.5281/zenodo.24415111
+url: https://doi.org/10.5281/zenodo.24415111

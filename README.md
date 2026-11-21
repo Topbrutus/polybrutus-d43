@@ -25,6 +25,15 @@ Both scripts print the same deterministic SHA-256 for `results/certificate_d43.j
 
 **Complete source lineage:** The exact frozen D42 source tag including all ancestors is in `prior/d42/frozen_scientific_tag_v0.1.0.zip` (SHA-256 `3789f4a185bb50dc0d2aaa157cc370044768598abce2095c3a5e6c80eb8e9f7a`, **28 ZIP entries**). The original parent certificate is copied byte-identically to `prior/d42/results/certificate_d42.json`, and both programs check the archive SHA-256, CRC, embedded entry equality and parent certificate SHA-256. Archive-within-archive packaging avoids the Windows maximum-path problem and retains all old source bytes. No nested Git repositories or submodules.
 
+## Official DOI and verified public release
+
+- **Official DOI:** [10.5281/zenodo.24415111](https://doi.org/10.5281/zenodo.24415111).
+- **Public Zenodo record:** https://zenodo.org/records/24415111, all 3 public files checked for exact sizes and MD5 against the original bytes.
+- **Frozen science tag:** [v0.1.0](https://github.com/Topbrutus/polybrutus-d43/tree/v0.1.0), source commit `e435e38aed88e8c65d294eeee26bee6b89056fc8`.
+- **Tag CI:** [GitHub Actions 44886709829](https://github.com/Topbrutus/polybrutus-d43/actions/runs/44886709829), success.
+- **Durable Memoria checkpoint:** https://github.com/Topbrutus/topbrutus_one/blob/main/memoria/checkpoints/POLYBRUTUS_D43_PUBLICATION_2026-11-21.md .
+- **Publications registry:** https://github.com/Topbrutus/topbrutus_one/blob/main/memoria/projects/POLYBRUTUS_X72_PUBLICATIONS_INDEX.md .
+
 ## Research material
 
 - [Exact mathematical specification](SPECIFICATION_D43.md), [constructive proof and adversarial checks](PREUVE_D43.md), [provenance and limits](PROVENANCE.md), [source lineage archive](prior/d42/ARCHIVE_PROVENANCE.md).
