@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the frozen scientific release using its official Zenodo DOI."
+title: "Polybrutus 43D: Exact 48-Point Euclidean Metric and Thirty-Sevenfold Ideal Graph Mode"
+type: software
+authors:
+  - family-names: St-Pierre
+    given-names: Gabriel
+version: "0.1.0"
+date-released: 2026-11-21
+license: MIT
+repository-code: https://github.com/Topbrutus/polybrutus-d43
+abstract: "Exact synthetic 48-point Euclidean labelled metric preserving 1081 parent squared pair distances and independently verified abstract graph modes."
